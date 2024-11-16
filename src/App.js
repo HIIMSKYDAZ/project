@@ -11,7 +11,7 @@ function App() {
       <Router>
         <NavBar />
         <Routes>
-          <Route path="/" element={<h1>Home Page</h1>} /> {/* Ideiglenes kezdőoldal */}
+          <Route path="/" element={<h1>Home Page TEEST GIT</h1>} /> {/* Ideiglenes kezdőoldal */}
           <Route path="/about" exact element={<AboutPage />} />
         </Routes>
       </Router>
